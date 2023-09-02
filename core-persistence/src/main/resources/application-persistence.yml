@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: ${SIDE_MONGODB_URI}

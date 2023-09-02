@@ -1,0 +1,9 @@
+spring:
+    profiles:
+        active:
+            - rest
+
+server:
+    port:
+        8090
+

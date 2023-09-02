@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active:
+      - persistence
+      - rest
+
+server:
+  port:
+    8088
+  servlet:
+    context-path:
+      /api
+
